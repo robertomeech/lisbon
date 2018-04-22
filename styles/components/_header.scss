@@ -24,15 +24,33 @@ header {
     display: flex;
     list-style: none;
     justify-content: space-between;
-    width: 70%;
+    width: 100%;
     margin: 4% 0 2% 0;
+    align-items: center;
     li {
         justify-content: space-between;
+
         a {
         color: white;
         text-decoration: none;
+        text-transform: uppercase;
+        font-size: 14px;
+        flex-wrap: wrap;
         }
     }
+}
+
+.searchIcon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: $secondaryColor;
+    display: flex;
+    align-items: center;
+}
+
+.searchIcon {
+    justify-content: center;
 }
 
 .arrow {
@@ -47,6 +65,7 @@ header {
 
 .arrowLeft {
     top: 50%;
+    left: 0;
     transform: translateY(-50%);
 }
 
@@ -59,15 +78,20 @@ header {
 .headerMain {
     text-align: center;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(50%);
 }
 
 .headerMain svg {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     fill: white;
 }
 
 .buttonPrimary {
+    margin-top: 2.5%;
     width: 215px;
     height: 50px;
     background-color: #e85889;
@@ -76,6 +100,17 @@ header {
     color: white;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.headerMain p {
+    font-size: 22px;
+    font-style: italic;
+}
+
+.headerMain h1 {
+    margin-bottom: 2%;
+    width: 70%;
 }
 
 

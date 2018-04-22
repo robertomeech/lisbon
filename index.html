@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYP<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +6,13 @@
     <title>Lisbon</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
         crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins:300,400,400i,500,600|Raleway:100,400,500,600,700,800"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <header>
-        <div class=".arrow arrowLeft"><i class="fas fa-chevron-left"></i></div>
+        <div class="arrow arrowLeft"><i class="fas fa-chevron-left"></i></div>
         <div class="arrow arrowRight"><i class="fas fa-chevron-right"></i></div>
         <div class="wrapper">
             <nav class="headerNav">
@@ -44,9 +44,11 @@
                     <li>
                         <a href="#">Contact us</a>
                     </li>
-                    <li>
-                        <a href="#"><i class="fas fa-search"></i></a>
-                    </li>
+                    <div class="searchIcon">
+                        <li>
+                            <a href="#"><i class="fas fa-search"></i></a>
+                        </li>
+                    </div>
                 </ul>
             </nav>
             <div class="headerMain">
@@ -62,38 +64,199 @@
                         />
                     </g>
                 </svg>
-                <p>20 - 22 June, 2018,Newyork City</p>
+                <p>20 - 22 June, 2018, New York City</p>
                 <h1>World digital conference 2018 lead your career</h1>
 
                 <button type="button" class="buttonPrimary">Buy tickets</button>
             </div>
         </div>
     </header>
-    <section class="countdown">
+    <section class="countdownSection">
         <div class="wrapper">
-            <div class="column1">
-                <p>26-29 August 2017, Berlin</p>
-                <h3>International conference in 2017</h3>
-            </div>
-            <div class="countdownFlexWrapper column2">
-                <div class="countdown">1</div>
-                <div class="countdown">4</div>
-                <div class="countdown">8</div>
-                <div class="countdown">2</div>
-                <div class="countdown">5</div>
-                <div class="countdown">2</div>
-                <div class="countdown">8</div>
-                <div class="countdown">1</div>
-                <div class="countdown">5</div>
-            </div>
-            <div class="column3">
-                <button class="buttonPrimary">Buy ticket</button>
-                <button class="buttonPrimary">See details</button>
+            <div class="countdownFlex">
+                <div class="column column1">
+                    <p>26-29 August 2017, Berlin</p>
+                    <h3>International conference in 2017</h3>
+                </div>
+                <div class="column column2">
+                    <div class="numbers">
+                        <div class="numberFlex">
+                            <div class="countdown"><p>1</p></div>
+                            <div class="countdown"><p>4</p></div>
+                            <div class="countdown"><p>8</p></div>
+                        </div>
+                        <div class="time">
+                            <p>Days</p>
+                        </div>
+                    </div>
+                    <div class="colon">
+                        <p>:</p>
+                    </div>
+                    <div class="numbers">
+                        <div class="numberFlex">
+                            <div class="countdown"><p>2</p></div>
+                            <div class="countdown"><p>5</p></div>
+                        </div>
+                        <div class="time">
+                            <p>Hours</p>
+                        </div>
+                    </div>
+                    <div class="colon">
+                        <p>:</p>
+                    </div>
+                    <div class="numbers">
+                        <div class="numberFlex">
+                            <div class="countdown"><p>2</p></div>
+                            <div class="countdown"><p>8</p></div>
+                        </div>
+                        <div class="time">
+                            <p>Minutes</p>
+                        </div>
+                    </div>
+                    <div class="colon">
+                        <p>:</p>
+                    </div>
+                    <div class="numbers">
+                        <div class="numberFlex">
+                            <div class="countdown"><p>1</p></div>
+                            <div class="countdown"><p>5</p></div>
+                        </div>
+                        <div class="time">
+                            <p>Seconds</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column column3">
+                    <button class="buttonPrimary">Buy ticket</button>
+                    <button class="buttonPrimary">See details</button>
+                </div>
             </div>
         </div>
     </section>
     <main>
-
+        <section class="about">
+            <div class="wrapper">
+                <div class="aboutText">
+                    <h2>About These Events</h2>
+                    <p>Starting your own IT business and picking the right niche in less than 30 days</p>
+                </div>
+                <div class="articleWrapper">
+                    <article>
+                        <div class="articleimage">
+                            <img src="./styles/images/about-image-1.png" alt="Cameras set up in what looks like a nightclub. Camera screens show lots of options. Strobe lights in the background.">
+                        </div>
+                        <div class="articleText">
+                            <p>Why we are doing this?</p>
+                            <p>It has survived not only 5 centuries, but also the leap into electronic typesetting.</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="articleImage">
+                            <img src="./styles/images/about-image-2.png" alt="A picture of a concert taken from behind the crowd. Can see a lot of the heads of the people in the crowd as well as the performer on stage. There's a lot of smoke and colored lights.">
+                        </div>
+                        <div class="articleText">
+                            <p>What will you learn?</p>
+                            <p>It has survived not only 5 centuries, but also the leap into electronic typesetting.</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="articleImage">
+                            <img src="./styles/images/about-image-3.png" alt="A close up picture of a MacBook keyboard. It was taken in the dark with a multicolored light on the MacBook.">
+                        </div>
+                        <div class="articleText">
+                            <p>What are the benefits?</p>
+                            <p>It has survived not only 5 centuries, but also the leap into electronic typesetting.</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="join">
+            <div class="wrapper">
+                <div class="joinText">
+                    <h2>Join our event</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus est, minima voluptates et dignissimos earum accusantium molestiae vel possimus iusto quasi numquam ipsa delectus deserunt fugit voluptatem.</p>
+                </div>
+                <form action="POST">
+                    <input type="search" placeholder="Your email..." class="search"><input type="submit" value="Subscribe" class="subscribe">
+                </form>
+            </div>
+        </section>
+        <section class="speakers">
+            <div class="wrapper">
+                <div class="speakersText">
+                    <h2>Our event speakers</h2>
+                    <p>Starting your own IT business and picking the right niche in less than 30 days</p>
+                </div>
+                <div class="speakersFlex">
+                    <div class="speaker">
+                        <div class="speakerPic">
+                            <img src="./styles/images/speaker-1.png" alt="Headshot of a young woman with round glasses and a camo green knit sweater.">
+                        </div>
+                        <div class="speakerName">
+                            <p>Ashley Warner</p>
+                            <p>CEO, Hatem Co.</p>
+                        </div>
+                    </div>
+                    <div class="speaker">
+                        <div class="speakerPic speakerPic2">
+                            <div class="speakerSocials">
+                                <a href="#" class="social">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                                <a href="#" class="social twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="social">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </div>
+                            <img src="./styles/images/speaker-2.png" alt="Headshot of a middle-aged man with square, black-rimmed glasses wearing a camo green polo shirt.">
+                        </div>
+                        <div class="speakerName speaker2">
+                            <p>Seth Rollins</p>
+                            <p>GM, The boxtrap.</p>
+                        </div>
+                    </div>
+                    <div class="speaker">
+                        <div class="speakerPic">
+                            <img src="./styles/images/speaker-3.png" alt="Headshot of a young woman with dark hair wearing a red blouse and a gold necklace.">
+                        </div>
+                        <div class="speakerName">
+                            <p>Darcy Owens</p>
+                            <p>Producer, CSI:Cyber</p>
+                        </div>
+                    </div>
+                    <div class="speaker">
+                        <div class="speakerPic">
+                            <img src="./styles/images/speaker-4.png" alt="Headshot of a young man with long dreadlocks and facial hair wearing a graphic tee">
+                        </div>
+                        <div class="speakerName">
+                            <p>Adam Rose</p>
+                            <p>CCO, Bittorrent</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="circleFlex">
+                    <div class="circles">
+                        <div class="circle"><i class="fas fa-circle"></i>
+                        </div>
+                        <div class="circle middleCircle"><i class="fas fa-circle"></i>
+                        </div>
+                        <div class="circle"><i class="fas fa-circle"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pricing">
+            <div class="wrapper">
+                
+            </div>
+        </section>
     </main>
 </body>
 </html>

@@ -1,0 +1,145 @@
+.speakers {
+    margin-bottom: 10%;
+    position: relative;
+}
+
+.speakersText {
+    text-align: center;
+    &:after {
+       content:"";
+        border-bottom: 1.5px solid red;
+        padding-top: 2.5%;
+        width: 7.5%;
+        height: 1px;
+        display: block;
+        margin: auto;
+    }
+
+    h2 {
+        margin: 10% 0 1% 0;
+    }
+    p {
+        font-size: 17px;
+        font-style: italic;
+        color: $tertiaryColor;
+        margin: 0;
+        line-height: 26px;
+    }
+}
+
+.speakersFlex {
+    margin: 8% 0 6% 0;
+    display: flex;
+    justify-content: space-between
+}
+
+.speaker {
+    display: flex;
+    width: 23%;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5px;
+    transition: box-shadow 0.5s ease;
+    img {
+        display: block;
+        border-radius: 5px 5px 0 0;
+        width: 100%;
+
+    }
+}
+
+.speaker:hover {
+    box-shadow: 2px 4px 18px 0px rgba(0, 0, 0, 0.93);
+}
+
+.speakerName {
+    box-shadow: 2px 4px 18px 0px rgba(0, 0, 0, 0.03);
+    border-radius: 0 0 5px 5px;
+}
+
+.speakerName p:first-of-type {
+    font-family: $baseFont;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0;
+    padding: 5% 0 3% 0;
+}
+
+.speakerName p:last-of-type {
+    color: #777777;
+    font-family: $accentFont;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+    padding: 0 0 8% 0;
+}
+
+.speaker2 {
+    background: $primaryColor;
+    & p:first-of-type {
+        color: white;
+    }
+    & p:last-of-type {
+        color:  #a6a0e3;
+    }
+}
+
+.speakerPic2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.speakerSocials {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    top: 80%;
+}
+
+.social {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5%;
+}
+
+a.social {
+    text-decoration: none;
+    color: white;
+}
+
+.twitter {
+    background: $secondaryColor;
+}
+
+.circleFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circles {
+    display: flex;
+    color: $primaryColor;
+    position: absolute; 
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    margin: 3%;
+}
+
+.middleCircle {
+    color: $secondaryColor;
+    border: 1px solid $secondaryColor;
+    border-radius: 50%;
+    padding: 1px;
+    display: flex;
+}

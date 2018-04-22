@@ -1,0 +1,39 @@
+.join {
+    background: url(././images/purple-pattern-bg.png);
+    height: 420px;
+}
+
+.joinText {
+    padding-top: 5%;
+    text-align: center;
+    color: white;
+    p {
+        margin: 0 8%;
+    }
+}
+
+.join form {
+    margin-top: 5%;
+    text-align: center;
+    input.search {
+        border: 1px solid white;
+        border-right: none;
+        border-radius: 5px 0 0 5px;
+        background: transparent;
+        width: 359px;
+        color: white;
+        text-transform: capitalize;
+        padding-left: 3%;
+        height: 51px;
+    }
+    input.subscribe {
+        border: none;
+        border-radius: 0 5px 5px 0;
+        width: 174px;
+        background: $secondaryColor;
+        color: white;
+        text-transform: uppercase;
+        height: 55px;
+    }
+}
+

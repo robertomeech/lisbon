@@ -1,0 +1,87 @@
+.about {
+    margin-bottom: 10%;
+}
+
+.aboutText {
+    text-align: center;
+}
+
+.articleWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articleWrapper article {
+    width: 31%;
+    img {
+        width: 100%;
+        display: block;
+    }
+}
+
+.aboutText {
+    padding: 0 7.5%;
+    margin: 10% 0 5% 0;
+    h2 {
+        margin-bottom: 2%;
+        padding: 0;
+        line-height: 26px;
+    }
+    p {
+        margin: 0;
+        padding: 0;
+        line-height: 30px;
+        color: #777777;
+        font-style: italic;
+        font-size: 17px;
+        &:after {
+            content:"";
+            border-bottom: 1.5px solid red;
+            padding-top: 2.5%;
+            width: 7.5%;
+            height: 1px;
+            display: block;
+            margin: auto;
+        }
+    }
+}
+
+.articleText {
+    padding: 10% 7.5%;
+    box-shadow: 2px 4px 18px 0px rgba(0, 0, 0, 0.03);
+    transition: box-shadow 0.5s ease;
+    p {
+        margin-top:0;
+        
+    }
+}
+
+.articleText:hover {
+    box-shadow: 2px 4px 18px 0px rgba(0, 0, 0, 0.13);
+}
+
+
+.articleText p:first-of-type {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.articleText p:last-of-type {
+    color: #777777;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.articleText a {
+    text-decoration: none;
+    color: $secondaryColor;
+    font-style: italic;
+    font-family: $accentFont;
+    transition: color 0.5s ease;
+}
+
+.articleText a:hover {
+    color: $primaryColor;
+}

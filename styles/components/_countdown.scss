@@ -1,0 +1,99 @@
+.countdownSection {
+    padding: 5% 0;
+    background-color:  #fafafa;
+    box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.03);
+}
+
+.countdownFlex {
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.column {
+    display: flex;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;    
+}
+
+.numberFlex {
+    display: flex;
+}
+
+.colon {
+    height: 45px;
+    width: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        margin:0;
+        padding: 0;
+        font-size: 22px;
+        font-family: $accentFont;
+    }
+}
+
+
+.countdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 37px;
+    height: 45px;
+    background: #333333;
+    border-radius: 2px;
+    margin: 0 1%;
+    p {
+    color: white;
+    font-size: 20px;
+    }
+}
+
+
+.column1 {
+    flex-direction: column;
+    width: 26%;
+}
+
+.column1 p {
+    font-size: 14px;
+    font-family: $accentFont;
+    margin: 0;
+    color:  #777777;
+    padding-bottom: 3%;
+}
+
+.column1 h3 {
+    font-size: 26px;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 33px;
+    font-family: $baseFont;
+}
+
+.time p {
+    font-size: 15px;
+    color:  #777777;
+    font-family: $baseFont;
+    margin-bottom: 0;
+}
+
+.column3 button{
+    width: 178px;
+    margin: 0;
+}
+
+.column3 button:first-of-type {
+    background: $primaryColor;
+}
+
+.column3 button:last-of-type {
+    margin-left: 4%;
+}
+
+
