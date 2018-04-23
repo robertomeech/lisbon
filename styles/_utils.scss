@@ -2,3 +2,7 @@
     width: 60%;
     margin: 0 auto;
 }
+
+@mixin remCalc($fontSize) {
+   font-size: ($fontSize / 16) * 1rem;
+}

@@ -832,7 +832,7 @@ a.social {
   .scheduleText:after {
     content: "";
     border-bottom: 1.5px solid red;
-    padding-top: 4%;
+    padding-top: 3%;
     width: 7.5%;
     height: 1px;
     display: block;
@@ -937,3 +937,144 @@ aside {
     color: #f8c4d6; }
   .day3 p:last-of-type {
     color: white; }
+
+.testimonial {
+  background: #463f8c;
+  padding: 5% 0; }
+
+.imagesAndQuoteFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.testimonialImages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-right: 2.5%; }
+  .testimonialImages img {
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .testimonialImages .testimonialImage1 {
+    border: 6px solid #ececec; }
+  .testimonialImages img.testimonialImage1 {
+    width: 52px;
+    height: 52px; }
+
+.testimonialQuote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  width: 45%; }
+  .testimonialQuote p:first-of-type {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    line-height: 46px;
+    margin-top: 0;
+    color: #fafafa; }
+  .testimonialQuote p:nth-of-type(2) {
+    color: #bfb9f6;
+    font-size: 17px;
+    font-style: italic;
+    line-height: 28px; }
+  .testimonialQuote p:last-of-type {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fafafa;
+    margin-bottom: 0; }
+    .testimonialQuote p:last-of-type span {
+      color: #bfb9f6;
+      font-size: 17px;
+      font-style: italic;
+      font-weight: 400; }
+
+.smartQuote {
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  font-size: 110px;
+  font-family: PlantagenetCherokee;
+  font-weight: 400;
+  color: #fafafa;
+  margin-right: 5%; }
+
+.latestNews {
+  padding: 5% 0; }
+
+.latestNewsText {
+  text-align: center;
+  margin-bottom: 7.5%; }
+  .latestNewsText p {
+    margin: 1% 0 0 0;
+    font-size: 17px;
+    color: #777777;
+    font-style: italic; }
+  .latestNewsText:after {
+    content: "";
+    border-bottom: 1.5px solid red;
+    padding-top: 3%;
+    width: 7.5%;
+    height: 1px;
+    display: block;
+    margin: auto; }
+
+.newsFlexGallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .newsFlexGallery .newsItem {
+    width: 30%;
+    background-color: #fafafa; }
+    .newsFlexGallery .newsItem a:not(:nth-child(2)) {
+      height: 52px;
+      width: 178px;
+      background: #e85889;
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+      display: block;
+      margin: auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      border-radius: 5px;
+      -webkit-transition: background 0.5s ease;
+      -o-transition: background 0.5s ease;
+      transition: background 0.5s ease;
+      margin-top: 7.5%; }
+    .newsFlexGallery .newsItem img {
+      display: block; }
