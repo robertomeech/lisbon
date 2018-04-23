@@ -1,0 +1,35 @@
+.newsletter {
+    padding: 5% 0;
+    background: url(././images/white-pattern-bg.png);
+    text-align: center;
+    h3 {
+        font-family: $baseFont;
+        text-transform: capitalize;
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 3%;
+    }
+    input{
+        height: 48px;
+        font-family: $accentFont;
+        margin-right: 1%;
+        &:first-of-type {
+            width: 620px;
+            border: none;
+            border-radius: 5px;
+            text-transform: capitalize;
+            padding-left: 5%;
+            color: #999999;
+        }
+        &:last-of-type {
+            width: 160px;
+            background: $secondaryColor;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+    }
+}
+
