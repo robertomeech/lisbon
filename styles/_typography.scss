@@ -21,6 +21,7 @@ h2 {
     text-transform: uppercase;
     font-weight: 800;
     font-family: 'Raleway';
+    margin-bottom: 0;
 }
 
 h3 {
@@ -28,7 +29,10 @@ h3 {
 }
 
 h4 {
-
+    font-size: 20px;
+    font-weight: 500;
+    font-family: $baseFont;
+    margin-bottom: 0;
 }
 
 h5 {
@@ -36,7 +40,9 @@ h5 {
 }
 
 h6 {
-
+    font-size: 18px;
+    font-family: $baseFont;
+    margin: 0;
 }
 
 p {
