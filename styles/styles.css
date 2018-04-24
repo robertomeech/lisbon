@@ -317,6 +317,115 @@ header {
   margin-bottom: 2%;
   width: 70%; }
 
+.footerTop {
+  background: #1b1b1b; }
+
+.footerTop .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 2.5% 0; }
+
+.footerThird {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 33%; }
+  .footerThird p {
+    color: #ababab;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: Poppins;
+    text-transform: capitalize;
+    margin: 0; }
+    .footerThird p:first-of-type {
+      margin-top: 5%; }
+    .footerThird p:last-of-type {
+      margin-bottom: 5%; }
+  .footerThird .footerIcon {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: #2f2f2f;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 10%; }
+    .footerThird .footerIcon svg {
+      width: 35px;
+      height: 35px;
+      fill: white; }
+
+.secondThird {
+  border-right: 1px solid rgba(88, 88, 88, 0.58);
+  border-left: 1px solid rgba(88, 88, 88, 0.58); }
+
+.footerMain {
+  background: #100f0f; }
+
+.footerMain .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2.5% 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .footerMain .wrapper img {
+    margin: 0 auto; }
+  .footerMain .wrapper nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 60%;
+    padding: 3% 0; }
+    .footerMain .wrapper nav ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      list-style: none;
+      width: 100%;
+      margin: 0;
+      padding-bottom: 7.5%;
+      padding-left: 0;
+      border-bottom: 1px solid #1b1b1b; }
+  .footerMain .wrapper p {
+    color: white;
+    font-size: 15px; }
+    .footerMain .wrapper p a {
+      color: #e85889; }
+      .footerMain .wrapper p a:hover {
+        color: #777777; }
+
+.footerMain a {
+  text-decoration: none;
+  color: #ababab; }
+  .footerMain a:hover {
+    color: #e85889; }
+
 .countdownSection {
   padding: 5% 0;
   background-color: #fafafa;
@@ -1062,29 +1171,32 @@ aside {
     background-color: #fafafa;
     height: 280px;
     text-align: left; }
-    .newsGalleryGrid .newsItem a:not(:nth-child(2)) {
-      height: 52px;
-      width: 178px;
-      background: #e85889;
-      text-decoration: none;
-      color: white;
-      text-transform: uppercase;
-      display: block;
-      margin: 0 auto auto 10%;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      border-radius: 5px;
-      -webkit-transition: background 0.5s ease;
-      -o-transition: background 0.5s ease;
-      transition: background 0.5s ease;
-      margin-top: 7.5%; }
+    .newsGalleryGrid .newsItem a {
+      font-family: "Poppins", sans-serif; }
+      .newsGalleryGrid .newsItem a:not(:nth-child(2)) {
+        height: 44px;
+        width: 152px;
+        font-size: 14px;
+        background: #e85889;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        display: block;
+        margin: 0 auto auto 10%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        border-radius: 5px;
+        -webkit-transition: background 0.5s ease;
+        -o-transition: background 0.5s ease;
+        transition: background 0.5s ease;
+        margin-top: 7.5%; }
     .newsGalleryGrid .newsItem img {
       display: block;
       width: 100%; }
