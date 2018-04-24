@@ -1,6 +1,7 @@
 .speakers {
     margin-bottom: 10%;
     position: relative;
+    
 }
 
 .speakersText {
@@ -55,6 +56,7 @@
 .speakerName {
     box-shadow: 2px 4px 18px 0px rgba(0, 0, 0, 0.03);
     border-radius: 0 0 5px 5px;
+    padding-bottom: 5%;
 }
 
 .speakerName p:first-of-type {
@@ -71,7 +73,7 @@
     font-weight: 400;
     font-size: 14px;
     margin: 0;
-    padding: 0 0 8% 0;
+    padding: 0;
 }
 
 .speaker2 {
@@ -86,8 +88,6 @@
 
 .speakerPic2 {
     position: relative;
-    display: flex;
-    justify-content: center;
 }
 
 .speakerSocials {

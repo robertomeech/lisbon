@@ -8,7 +8,7 @@
     display: flex;
     width: 100%;
     flex-direction: row-reverse;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .scheduleText {
@@ -34,13 +34,25 @@
 .scheduleFlexWrapper {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 71%;
+    border-left: 1.5px dashed #ececec;
+    margin-left: 2.5%;
 }
 
 .event {
     display: flex;
     align-items: flex-start;
     margin-bottom: 5%;
+    position: relative;
+    &::before {
+        top: 35%;
+        position: absolute;
+        width: 30px;
+        border-bottom: 1.5px dashed #e0e0e0;
+        content: "";
+        display: inline-block;
+        left: 1px;
+    }
     h6 {
         font-weight: 700;
         line-height: 28px;
@@ -52,7 +64,9 @@
         width: 80px;
         height: 80px;
         margin-right: 2%;
+        margin-left: 5%;
         border: 7px solid #ececec;
+        position: relative;
     }
     p:first-of-type {
         margin: 0;
@@ -79,7 +93,7 @@ aside {
     margin-top: 5%;
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 22.5%;
 }
 
 .days {
@@ -134,3 +148,11 @@ aside {
 //         color: black;
 //     }
 // }
+
+
+@media (max-width: 1440px) {
+    .days {
+        height: 90px;
+        width: 250px;
+    }
+}

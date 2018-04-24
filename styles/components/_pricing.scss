@@ -114,5 +114,45 @@
 
 .priceBox2 {
     margin: 2% 0;
+    position: relative;
+    overflow: hidden;
+    .priceBoxTop .rectangle {
+        width: 250px;
+        height: 50px;
+        background: $primaryColor;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-weight: 500;
+        transform: rotate(44.543deg);
+        right: -80px;
+        top: 20px;
+    }
 }
 
+
+@media (max-width: 1440px) {
+    .priceBox li p {
+        font-size: 14px;
+        padding: 0 15%;
+    }
+}
+
+@media (max-width: 1250px) {    
+        .priceBox2 .priceBoxTop .rectangle {
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+            top: -15px;
+            right: -10px;
+            transform: rotate(0);
+        }
+
+        .priceBox2 {
+            overflow: visible;
+        }
+
+
+}

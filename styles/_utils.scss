@@ -19,3 +19,10 @@
 @mixin remCalc($fontSize) {
    font-size: ($fontSize / 16) * 1rem;
 }
+
+
+@media (max-width: 1250px) {
+    .wrapper {
+        width: 90%;
+    }
+}
