@@ -98,3 +98,32 @@
         color: $secondaryColor;
     }
 }
+
+@media (max-width: 900px) {
+     .footerThird {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    footer .footerTop .wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .secondThird {
+        border: none;
+        justify-content: flex-end;
+    }
+
+    .footerTopText p {
+        font-size: 12px;
+    }
+
+    .footerMain .wrapper nav {
+        width: 90%;
+    }
+
+    .footerMain a, .footerMain .copyright  p {
+        font-size: 12px;
+    }
+}

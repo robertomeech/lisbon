@@ -147,4 +147,17 @@
     }
 }
 
+@media (max-width: 470px) {
+   .countdown {
+        width: 30px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .column3 button{
+        width: 150px;
+        margin: 0;  
+    }
+}
+
 

@@ -31,7 +31,8 @@
 .speakersFlex {
     margin: 8% 0 6% 0;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .speaker {
@@ -142,4 +143,17 @@ a.social {
     border-radius: 50%;
     padding: 1px;
     display: flex;
+}
+
+@media (max-width: 800px) {
+    .speaker {
+        width: 48%;
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .speaker {
+        width: 100%;
+    }
 }

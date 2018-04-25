@@ -37,3 +37,42 @@
     }
 }
 
+
+@media (max-width: 650px) {
+    
+    .joinText h2 {
+        margin-bottom: 5%;
+    }
+
+    .joinText p {
+        margin: 0;
+    }
+    
+    .join form{
+        font-size: 14px;
+        input.search {
+            width: 275px;
+        }
+        input.subscribe {
+            width: 100px;
+        }
+    }
+}
+
+
+@media (max-width: 440px) {
+    .join form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        input.search {
+            border-radius: 5px 5px;
+            border-right: 1px solid white;
+            margin-bottom: 1%;
+        }
+        input.subscribe {
+            border-radius: 5px;
+        }
+    }
+
+}

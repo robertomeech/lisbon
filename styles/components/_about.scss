@@ -9,10 +9,13 @@
 .articleWrapper {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .articleWrapper article {
     width: 31%;
+    display: flex;
+    flex-wrap: wrap;
     img {
         width: 100%;
         display: block;
@@ -84,4 +87,37 @@
 
 .articleText a:hover {
     color: $primaryColor;
+}
+
+@media (max-width: 800px) {
+    .articleWrapper article {
+        width: 48%;
+        flex-wrap: wrap;
+        margin-bottom: 4%;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .wrapper{
+        width: 95%;
+    }
+
+    .aboutText h2{
+
+        margin-bottom: 5%;
+        padding: 0;
+        line-height: 40px;
+    }
+    
+
+    .articleWrapper article {
+        width: 67%;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
 }

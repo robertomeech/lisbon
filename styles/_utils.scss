@@ -26,3 +26,9 @@
         width: 90%;
     }
 }
+
+@media (max-width: 445px) {
+    main h2 {
+        font-size: 30px;
+    }
+}
