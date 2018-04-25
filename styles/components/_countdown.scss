@@ -30,7 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    p{
+    p {
         margin:0;
         padding: 0;
         font-size: 22px;
@@ -86,15 +86,25 @@
 .column3 button{
     width: 178px;
     margin: 0;
+    transition: 0.5s ease; 
+    &:hover {
+        background: $tertiaryColor;
+    }
 }
+
 
 .column3 button:first-of-type {
     background: $primaryColor;
+    &:hover {
+        background: $tertiaryColor;
+    }
 }
 
 .column3 button:last-of-type {
     margin-left: 4%;
 }
+
+// MEDIA QUERIES START
 
 
 @media (max-width: 1440px) {
@@ -129,7 +139,7 @@
         margin-bottom: 5%;
         &:after {
             content:"";
-            border-bottom: 1.5px solid red;
+            border-bottom: 1.5px solid $secondaryColor;
             padding-top: 3%;
             width: 7.5%;
             height: 1px;

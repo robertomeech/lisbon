@@ -16,7 +16,7 @@
         font-size: 17px;
         &:after {
             content:"";
-            border-bottom: 1.5px solid red;
+            border-bottom: 1.5px solid $secondaryColor;
             padding-top: 2.5%;
             width: 7.5%;
             height: 1px;
@@ -36,20 +36,32 @@
 
 .priceBox {
     text-align: center;
-    background-color:  #bad;
+    background-color:  #fafafa;
     border: 1px solid #ececec;
     width: 31%;
     margin: 2%;
     text-transform: capitalize;
+    transition: box-shadow 0.5s ease; 
+    &:hover {
+        box-shadow: 2px 4px 18px 0px rgba(0, 0, 0, 0.30);
+    }
     li {
         list-style: none;
         line-height: 40px;
+        &::before {
+                content:"";
+                display: block;
+                width: 100%;
+                border-bottom: 1px dashed #e0e0e0;
+            }
         p {
             font-family:'Open Sans', sans-serif;
             font-size: 15px;
             text-align: left;
-            padding: 0 20%;
+            padding-left: 20%;
+            margin-left: 10%;
             color: $tertiaryColor;
+            text-align: left;
         }
     }
 }
@@ -59,20 +71,19 @@
 }
 
 .priceBoxTop p:first-of-type {
-
     color: $tertiaryColor;
     font-size: 14px;
     font-weight: 300;
     margin-top: 2%;
     &:after {
-            content:"";
-            border-bottom: 1.5px solid black;
-            padding-top: 4%;
-            width: 10%;
-            height: 1px;
-            display: block;
-            margin: auto;
-        }
+        content:"";
+        border-bottom: 1.5px solid black;
+        padding-top: 4%;
+        width: 10%;
+        height: 1px;
+        display: block;
+        margin: auto;
+    }
 }
 
 .priceBoxTop p:last-of-type {
@@ -133,6 +144,11 @@
 }
 
 
+
+// MEDIA QUERIES START
+
+
+
 @media (max-width: 1440px) {
     .priceBox li p {
         font-size: 14px;
@@ -167,13 +183,11 @@
     .priceBox li {
         display: none;
     }
-
     .priceBoxBottom a {
         width: 50%;
         height: 40px;
         font-size: 14px;
     }
-
     .pricingFlexWrapper {
         margin-top: 15%;
     }
@@ -198,6 +212,5 @@
     .priceBox {
         width: 90%;
         flex-wrap: wrap;
-
     }
 }

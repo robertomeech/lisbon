@@ -34,8 +34,15 @@
         color: white;
         text-transform: uppercase;
         height: 55px;
+        transition: background 0.5s ease;
+        &:hover {
+            background: $tertiaryColor;
+        }
     }
 }
+
+
+// MEDIA QUERIES START
 
 
 @media (max-width: 650px) {

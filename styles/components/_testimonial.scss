@@ -71,6 +71,10 @@
     margin-right: 5%;
 }
 
+
+// MEDIA QUERIES START
+
+
 @media (max-width: 1100px) {
     .imagesAndQuoteFlex {
         justify-content: center;
@@ -94,5 +98,5 @@
         font-size: 70px;
         width: 7%;
     }
-}
+    }
 }
