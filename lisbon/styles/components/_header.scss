@@ -22,7 +22,7 @@ a:hover {
 #menuToggle {
     position: relative;
     top: 50px;
-    left: 30px;
+    right: 30px;
     
     z-index: 1;
     
@@ -98,7 +98,7 @@ a:hover {
     margin: -100px 0 0 -75px;
     padding: 25px;
     padding-top: 150px;
-    font-family: $baseFont;
+    font-family: $titleFont;
   
     background: lighten($primaryColor, 4%);
     list-style-type: none;
